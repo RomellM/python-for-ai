@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 
-# Calculate dates
+# Calculate the dates
 today = datetime.now()
 week_ago = today - timedelta(days=7)
 
